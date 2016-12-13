@@ -13,7 +13,7 @@ This codebase includes several classifier which distinguishes texts by Trump and
 - Classifier - RNN/LSTM ([notebook](https://github.com/angierao/cs182-project/blob/master/src/notebooks/%5BClassification%5DRNN%20LSTM%20for%20classification.ipynb))
 - Data - Experimental - HMM - Typo Correction ([notebook](https://github.com/angierao/cs182-project/blob/master/src/notebooks/%5BData%5DCleaning%20-%20HMM.ipynb))
 - Data - Helper Functions ([notebook](https://github.com/angierao/cs182-project/blob/master/src/notebooks/%5BData%5DHelper%20functions.ipynb))
-- Text Generation - Vanilla RNN ([notebook]())
+- Text Generation - Basic(Vanilla) RNN ([notebook](https://github.com/angierao/cs182-project/blob/master/src/notebooks/%5BText-Generations%5DBasic%20RNN.ipynb))
 - Text Generation - RNN/LSTM ([code](https://github.com/angierao/cs182-project/blob/master/src/python/Text_Generation_LSTM.py))
 
 # How to Run the Code
