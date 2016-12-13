@@ -110,6 +110,7 @@ input_size = len(vocab)
 output_size = len(vocab)
 lstm_size, num_layers, batch_size, time_steps = 256, 2, 64, 100
 RUN_BATCHES = 10000
+LEN_TEST_TEXT = 500
 
 config = tf.ConfigProto()
 config.gpu_options.allow_growth=True
@@ -123,7 +124,7 @@ net = LSTM_RNN(input_size = input_size,
 					learning_rate = 0.003,
 					name = "char_rnn_network")
 
-tf_session.run(tf.initialize_all_variables() 
+tf_session.run(tf.initialize_all_variables())
 
 saver = tf.train.Saver(tf.all_variables())
 
@@ -151,8 +152,7 @@ if OK:
 			last_time = new_time
 
 			print "RUNNING BATCH #",i,"   loss: ",cst," at ",(100.0/diff)," batches / s"
-			saver.save(tf_session, "saved/model.ckpt")
+			saver.save(tf_session, "../../data/model.ckpt")
 			gen_text()
 
-	saver.save(tf_session, "saved/model.ckpt")
 
