@@ -2,6 +2,11 @@
 
 This codebase includes several classifier which distinguishes texts by Trump and Clinton, and several text generator for Trump-style and Clinton-style texts
 
+# Requirements
+- Download Tensorflow ([link](https://www.tensorflow.org/versions/r0.12/get_started/index.html))
+- Download Theano ([link](http://deeplearning.net/software/theano/install.html))
+- Download Keras ([link](https://keras.io/))
+
 # Table Of Contents
 - Classifier - Naive Bayes - Bag Of Words ([notebook](https://github.com/angierao/cs182-project/blob/master/src/notebooks/%5BClassification%5DNaive%20Bayes%20-%20Bag%20Of%20Words.ipynb))([code](https://github.com/angierao/cs182-project/blob/master/src/python/Naive_Bayes_Bag_Of_Words.py))
 - Classifier - Naive Bayes - Featured Based Approach ([notebook](https://github.com/angierao/cs182-project/blob/master/src/notebooks/%5BClassification%5DNaive%20Bayes%20-%20Feature%20Based.ipynb))([code](https://github.com/angierao/cs182-project/blob/master/src/python/Naive_Bayes_Feature_Based.py))
